@@ -11,4 +11,4 @@ check out the [initial discussion post here](https://github.com/Phillip-D-Shield
 - ##### [Link to Blog-00](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/blogs/blog-00.md)
 
 ### Recent C# stuff
-- ##### [virtualZoo](https://github.com/Phillip-D-Shields/VirtualZooFinal/blob/main/README.md)
+- ##### [virtualZoo](https://github.com/Phillip-D-Shields/VirtualZooFinal)
