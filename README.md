@@ -8,7 +8,8 @@ check out the [initial discussion post here](https://github.com/Phillip-D-Shield
 
 
 ### Current Blogs
-- ##### [Link to Blog-00](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/blogs/blog-00.md)
+- ##### [Link to Blog-00 intro](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/blogs/blog-00.md)
+- ##### [Link to Blog-01 erd && sql](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/blogs/blog-01.md)
 
 ### Recent C# stuff
 - ##### [memoryGame](https://github.com/Phillip-D-Shields/memoryGame)
