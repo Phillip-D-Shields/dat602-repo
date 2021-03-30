@@ -29,3 +29,29 @@ The objective of the game is simple, collect the food items to receive the point
 > ### ADMINISTRATORS
 
 A small group of users will be given administration rights and access to admin controls for games, users, and database related operations.
+
+## STORYBOARDS
+
+> ### LOGIN
+![login base](loginBase.png)
+
+![login with error](loginError.png)
+> ### REGISTER
+![register base](registerBase.png)
+
+![registerError](registerError.png)
+
+> ### GAME LOBBY
+![game lobby](gameLobby.png)
+> ### GAME BOARD
+![game board display](gameDisplay.png)
+> ### ADMIN CONTROLS
+
+## ENTITY RELATIONSHIP DIAGRAM
+
+![ERD](dat602-ms1-erd.png)
+## CRUD TABLE
+
+## SQL
+
+[myGame.sql file](myGame.sql)
