@@ -1,26 +1,28 @@
 /* ========================= DDL ========================= */
-CREATE TABLE session(
-   gameID     INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
-  ,playerID   INTEGER  NOT NULL
-  ,hitTotal   INTEGER  NOT NULL
-  ,totalScore INTEGER  NOT NULL
-);
-
 CREATE TABLE player(
    playerID     INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
   ,userName     VARCHAR(14) NOT NULL
   ,userPassword VARCHAR(12) NOT NULL
   ,email        VARCHAR(25) NOT NULL
-  ,adminUser    VARCHAR(5) NOT NULL
-  ,userOnline   VARCHAR(5) NOT NULL
+  ,adminUser    BOOLEAN NOT NULL
+  ,userOnline   BOOLEAN NOT NULL
   ,hitTotal     INTEGER  NOT NULL
   ,highScore    INTEGER  NOT NULL
 );
 
+CREATE TABLE session(
+   gameID     INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
+  ,playerID   INTEGER  NOT NULL
+  ,hitTotal   INTEGER  NOT NULL
+  ,totalScore INTEGER  NOT NULL
+  ,FOREIGN KEY (`playerID`) REFERENCES `player` (`playerID`)
+);
+
 CREATE TABLE game(
-   gameID     INTEGER  NOT NULL FOREIGN KEY 
+   gameID     INTEGER  NOT NULL
   ,gameType   INTEGER  NOT NULL
   ,gameStatus INTEGER  NOT NULL
+  ,FOREIGN KEY (`gameID`) REFERENCES `session` (`gameID`)
 );
 
 CREATE TABLE gameBoard(
@@ -30,30 +32,29 @@ CREATE TABLE gameBoard(
 );
 
 CREATE TABLE boardDisplay(
-   boardID      INTEGER  NOT NULL FOREIGN KEY
+   boardID      INTEGER  NOT NULL
   ,boardType    INTEGER  NOT NULL
   ,boardRows    INTEGER  NOT NULL
   ,boardCols    INTEGER  NOT NULL
   ,boardContent INTEGER  NOT NULL
+  ,FOREIGN KEY (`boardID`) REFERENCES `gameBoard` (`boardID`)
 );
 
 CREATE TABLE snakeDisplay(
    snakeID       INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
-  ,boardID       INTEGER  NOT NULL FOREIGN KEY
   ,snakeLocation INTEGER  NOT NULL
   ,snakeLength   INTEGER  NOT NULL
 );
 
-
 /* =================== DML ====================== */
+INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (1,'gmorefield0','AASf7O7ARKg','kahrens0@java.com','false','false',803,399);
+INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (2,'aabson1','u9tYZv9','ldeddum1@domainmarket.com','true','true',439,402);
+INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (3,'dbernakiewicz2','kqg8FbR3xKbH','lpurveys2@bing.com','false','true',791,728);
+
 
 INSERT INTO session(gameID,playerID,hitTotal,totalScore) VALUES (812,686,941,787);
 INSERT INTO session(gameID,playerID,hitTotal,totalScore) VALUES (174,871,134,718);
 INSERT INTO session(gameID,playerID,hitTotal,totalScore) VALUES (762,619,36,466);
-
-INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (1,'gmorefield0','AASf7O7ARKg','kahrens0@java.com','false','false',803,399);
-INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (2,'aabson1','u9tYZv9','ldeddum1@domainmarket.com','true','true',439,402);
-INSERT INTO player(playerID,userName,userPassword,email,adminUser,userOnline,hitTotal,highScore) VALUES (3,'dbernakiewicz2','kqg8FbR3xKbH','lpurveys2@bing.com','false','true',791,728);
 
 INSERT INTO game(gameID,gameType,gameStatus) VALUES (276,5,7);
 INSERT INTO game(gameID,gameType,gameStatus) VALUES (291,4,9);
