@@ -84,6 +84,7 @@ A screen for admin controls can be accessed by specific users with admin privelg
 ![ERD](assets/dat602-ms1-erd.png)
 
 I am aware that my ERD is missing some complexity. This is my third attempt at the ERD and I decided to dumb everything down to maintain simplicity. I am anticipating some parts to change and for additional tables to be added as the project further progresses along. 
+
 ## CRUD TABLE
 [CRUD PDF](files/ERD.drawio) for better viewing
 
@@ -94,12 +95,11 @@ The diferrent entities are displayed on the left handside in dark grey and the a
 My CRUD table is based from the example given in class. I anticipate mulitple modifications as the project continues.
 
 
-
 ## SQL
 
 [link to myGame.sql file](files/myGame.sql)
 
-These mySQL DDL statements will ultimately be modified as the project continues. For now this code will act as boilerplate for future modifications.
+These DDL statements will ultimately be modified as the project continues. For now this code will act as boilerplate for future modifications.
 
 > #### DDL
 ![DDL code](assets/sql-ddl-ms1.png)
