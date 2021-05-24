@@ -12,7 +12,7 @@ I really struggled to piece the classes and class content together, and if I am 
 > - Node.js - Javascript runtime.
 > - Web3.js - Collection of js libraries used to interact with the ethereum network.
 > - Solidity - a statically-typed curly-braces programming language designed for developing smart contracts that run on ethereum network.
-> - MetaMask - A browser extension that allows the browser to access the ethereum virtual network, also know as EVN, and interact with the blockchain as a wallet.
+> - [metamask](https://metamask.io/index.html) - A browser extension that allows the browser to access the ethereum virtual network, also know as EVN, and interact with the blockchain as a wallet.
 > - Truffle - Development environment, testing framework and asset pipeline for blockchains.
 > - Ganache - Development blockchain used for developing and testing smart contracts without having to deploy them.
 > - React.js - Front-end framework.
@@ -35,11 +35,12 @@ A player will be given a set time limit to find as many matches within a set of 
 
 ### REGISTRATION
 
-Since Metamask is required to access the EVN, the unique wallet address can be used as the users credentials. This means that a user will not have to register or login with credentials specific to the game. They only need to have previously created a Metamask wallet, then navigate to the dApp with the wallet activated as a browser extension. Some specific instructions about installing and using Metamask can be found here.
+Since Metamask is required to access the EVN, the unique wallet address can be used as the users credentials. This means that a user will not have to register or login with credentials specific to the game. They only need to have a Metamask wallet.  
 
-The advantage of using the wallet for player credentials is that a user can access all dApps across the EVN with a single wallet.  
+The advantage of using the wallet for player credentials is that a user can securely access all dApps across the EVN with a single wallet. The wallet itself can store crypto coins and also ethereum related data, such as public addresses and private keys. The wallet allows user to access the EVN and essentially turns a browser or mobile app into an EVN browser.
 
-<!-- insert screenshots with captions about registering and using the wallet address -->
+Metamask security uses a 12-word seed phrase to secure a users wallet. The only person that knows this phrase is the user, and so the security of the wallet relies on the user protecting their seed phrase. A common phrase in crypto is "not your keys, not your crypto", which has a two levels to it. The first is when using a third-party to store crypto, such as an exchange or broker. And the second meaning is that if you are not the only one that knows your key, then you are also not the only one that can access your wallet.
+
 
 ### PLAYER SELECTION
 
