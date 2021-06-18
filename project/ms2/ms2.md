@@ -9,13 +9,13 @@ I really struggled to piece the classes and class content together, and if I am 
 > ### TECH STACK USED
 
 <!-- add links -->
-> - Node.js - Javascript runtime.
-> - Web3.js - Collection of js libraries used to interact with the ethereum network.
-> - Solidity - a statically-typed curly-braces programming language designed for developing smart contracts that run on ethereum network.
+> - [Node.js](https://nodejs.org/en/) - Javascript runtime.
+> - [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/) - Collection of js libraries used to interact with the ethereum network.
+> - [Solidity](https://soliditylang.org/) - a statically-typed curly-braces programming language designed for developing smart contracts that run on ethereum network.
 > - [metamask](https://metamask.io/index.html) - A browser extension that allows the browser to access the ethereum virtual network, also know as EVN, and interact with the blockchain as a wallet.
-> - Truffle - Development environment, testing framework and asset pipeline for blockchains.
-> - Ganache - Development blockchain used for developing and testing smart contracts without having to deploy them.
-> - React.js - Front-end framework.
+> - [Truffle](https://www.trufflesuite.com/) - Development environment, testing framework and asset pipeline for blockchains.
+> - [Ganache](https://www.trufflesuite.com/docs/ganache/quickstart) - Development blockchain used for developing and testing smart contracts without having to deploy them.
+> - [React.js](https://reactjs.org/) - Front-end framework.
 
 > ### NEW GAME OUTLINE
 
@@ -56,7 +56,9 @@ Blockchains and smart contracts are immutable, so it is imperative that smart co
 
 An admin account will not be necessary. EVN smart contracts and the blockchain blocks are immutable, so any admin options or actions must be considered prior to smart contract deployment. The player data stored on IPFS will also only be modified through smart contracts that monitor user activity.
 
-## MULTIPLAYER ACID
+## ACID
+
+nevermind. i cant do this project anymore.
 
 ### ATOMICITY
 
