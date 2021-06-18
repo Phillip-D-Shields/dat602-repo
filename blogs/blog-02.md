@@ -12,4 +12,4 @@ Here at NMIT, in most of the classes, the opposite approach is taken and things 
 
 I have done multiple c# tutorials outside of class, and picked up bits and pieces. But I have found it very frustrating that I have been required to take classes that use C# for high level projects, before I have taken the intro to C# course.
 
-I will continue on with making this class assessment with javascript ([link to repo](https://github.com/Phillip-D-Shields/snake-multi-js)), it is the only way I feel i can succeed, complete the milestones / assessments, and learn more about the process.
+I will continue on with making this class assessment with javascript, it is the only way I feel i can succeed, complete the milestones / assessments, and learn more about the process.
