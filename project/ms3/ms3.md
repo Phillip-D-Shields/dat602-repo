@@ -201,8 +201,8 @@ There are no sketches of interactions because I could not get that far in my thi
 
 The third attempt of the game was snake written completely in MySQL. But is not much farther than the basic DDL and some basic DML. There is no GUI or report on how I refined my project.
 
-I did not extend my work into a series of windows forms. I
+I did not extend my work into a series of windows forms.
 
 I did not create a class that has methods for each of my previously defined SQL database procedures.
 
-I did not implement one genuine interaction in the prototype, unless aspects of the first or second project attempt are considered.
+I did not implement one genuine interaction in the prototype, unless aspects of the first or second project attempt are considered. 
