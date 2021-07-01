@@ -10,5 +10,5 @@ check out the [initial discussion post here](https://github.com/Phillip-D-Shield
 
 - ### [Link to blogs](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/blogs/)
 
-
+- ### [Link to MS3](https://github.com/Phillip-D-Shields/dat602-repo/blob/master/project/ms3/ms3.md)
 
