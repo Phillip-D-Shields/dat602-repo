@@ -193,7 +193,7 @@ The code from my initial project attempt can be found [here](../ms1/src/).
 
 The initial code for  my decentralized project attempt can be found [here](../ms2/src/).
 
-The code that was worked on in the final weeks can be found [here](./src/).
+The code that was worked on in the final weeks can be found [here](./src/), along with a few other attempts at creating something with relational databases and mysql.
 
 ## MS3
 
@@ -205,4 +205,4 @@ I did not extend my work into a series of windows forms.
 
 I did not create a class that has methods for each of my previously defined SQL database procedures.
 
-I did not implement one genuine interaction in the prototype, unless aspects of the first or second project attempt are considered. 
+I did not implement one genuine interaction in the prototype, unless aspects of the first or second project attempt are considered.
